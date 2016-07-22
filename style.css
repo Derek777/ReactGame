@@ -1,0 +1,42 @@
+
+div#board{
+    background: #CCC;
+    border: #999 1px solid;
+    width: 620px;
+    height: 620px;
+    padding: 24px;
+    margin:0px auto;
+}
+div#board > div div{
+    background: url(index.jpg) no-repeat;
+    border: #000 1px solid;
+    width: 111px;
+    height: 111px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+img{
+    width: 100%;
+}
+
+.available{
+    visibility: visible;
+}
+.selected{
+
+    visibility: hidden;
+}
+.imgavailable{
+    visibility: hidden;
+}
+.imgselected{
+
+    visibility: visible;
+}
+.sel{
+    visibility:hidden;
+
+}
